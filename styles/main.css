@@ -28,7 +28,7 @@ header li {
 }
 
 header {
-    background-color: rgb(136, 44, 44);
+    background-color: rgb(4, 0, 221);
     color: #fff;
     padding: 16px;
 
@@ -45,7 +45,7 @@ header h1 {
 }
 
 body {
-    background-color: rgb(44, 43, 43);
+    background-color: rgb(120, 1, 218);
 
 }
 
@@ -58,7 +58,7 @@ body {
     margin-top: 70px;
     margin-bottom: 30px;
     text-align: center;
-    border-bottom: 3px solid rgb(136, 44, 44);
+    border-bottom: 3px solid rgb(56, 0, 185);
 }
 
 .produtos {
@@ -69,6 +69,12 @@ body {
     max-width: 1024px;
     margin: 0 auto;
     margin-bottom: 80px;
+}
+
+#textTitulos{
+    text-decoration: none;
+    color: rgb(228, 219, 255);
+    font-size: 20px;
 }
 
 .produto {
