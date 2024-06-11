@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Titulo;
+    src: url(../font/Righteous-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,12 +10,15 @@
 
 }
 
+
 .container {
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
+}
 
-
+#carro{
+    margin-top: 0%;
 }
 
 header .container {
@@ -35,17 +43,11 @@ header {
 }
 
 header h1 {
-    font-family: 'Bruno Ace SC', cursive;
-}
-
-
-
-#carro {
-    margin-bottom: 50px;
+    font-family: 'Titulo';
 }
 
 body {
-    background-color: rgb(120, 1, 218);
+    background-color: rgb(76, 4, 136);
 
 }
 
@@ -58,7 +60,6 @@ body {
     margin-top: 70px;
     margin-bottom: 30px;
     text-align: center;
-    border-bottom: 3px solid rgb(56, 0, 185);
 }
 
 .produtos {
@@ -88,7 +89,10 @@ body {
 .contorno {
     color: rgb(255, 255, 255);
     -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
 
+#compra1{
+    color: orangered;
 }
 
 @media screen and (max-width: 767px) {
