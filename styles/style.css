@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@font-face {
+    font-family: Encode;
+    src: url(../font/EncodeSansSC-VariableFont_wdth\,wght.ttf);
+}
+
+
 *{
     box-sizing: border-box;
 }
@@ -6,7 +13,7 @@
 body{
     
     font-family: 'Roboto Mono', monospace;
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/background1.jpg);
     background-size: cover;
 }
 
@@ -33,13 +40,14 @@ body{
 
 #formulario p{
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     background-color: white;
+    font-family: 'Encode';
 }
 
 #quantidade-ingresso-inteira, #quantidade-ingresso-meia, #filmes, #horarios{
-    height: 2rem;
-    width: 25%;
+    height: 1.5rem;
+    width: 40%;
     font-weight: bold;
     font-size: 1rem;
 }
@@ -87,12 +95,13 @@ body{
 
 .label-assento{
     display: flex;
-    margin: 10px;
+    margin: 5px;
     justify-content: space-evenly;
-    border: 2px solid rgb(53, 52, 52);
-    border-radius: 30px;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 20px;
     color: rgb(4, 13, 118);
     vertical-align: middle;
+    
 }
 
 #input-submit{
@@ -100,7 +109,16 @@ body{
     display: flex;
     font-size: 2rem;
     padding: 5px 10px;
-    
+    font-family: 'Titulo';
+    justify-content: center;
+}
+
+#pagamento{
+    margin: 50px;
+    display: flex;
+    font-size: 1.5rem;
+    font-family: 'Titulo';
+    justify-content: center;
 }
 
 .resultado-vazio{
@@ -111,12 +129,13 @@ body{
 .resultado-impresso{
     width: 30%;
     height: auto;
-    background: rgb(219, 212, 112);
+    background: rgb(236, 236, 236);
     color: black;
     margin: 20px auto;
     padding: 20px 5px;
     border: 5px dashed black;
     border-radius: 5px;
+    text-align: center;
 }
 
 

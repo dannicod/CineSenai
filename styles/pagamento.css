@@ -76,23 +76,23 @@ body {
 }
 
 .step.active {
-    background-color: #1abc9c;
+    background-color: #0a3fee;
 }
 
 .step.active:after {
-    background-color: #1abc9c;
+    background-color: #0a3fee;
 }
 
 .step.active:before {
-    color: #1abc9c;
+    color: #0a3fee;
 }
 
 .step.active+.step {
-    background-color: #1abc9c;
+    background-color: #0a3fee;
 }
 
 .step.active+.step:before {
-    color: #1abc9c;
+    color: #0a3fee;
 }
 
 .step:nth-child(1):before {
@@ -188,7 +188,7 @@ input[type='password'] {
 
 input[type='text']:focus,
 input[type='password']:focus {
-    border-color: rgb(119, 219, 119);
+    border-color: #0a3fee;
 }
 
 #date {
@@ -239,13 +239,13 @@ input[type='password']:focus {
 }
 
 .back-btn {
-    color: #1abc9c;
+    color: #0a3fee;
     background: #fff;
 }
 
 .next-btn {
     color: #fff;
-    background: #1abc9c;
+    background: #0a3fee;
 }
 
 .btn:focus {
@@ -261,5 +261,5 @@ input[type='password']:focus {
 }
 
 .warning {
-    border-color: #1abc9c;
+    border-color: #0a3fee;
 }

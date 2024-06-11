@@ -72,6 +72,11 @@ body {
     margin-bottom: 80px;
 }
 
+#botoes{
+    border: 1px solid white;
+    font-family: 'Titulo';
+}
+
 #textTitulos{
     text-decoration: none;
     color: rgb(228, 219, 255);

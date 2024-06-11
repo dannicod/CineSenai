@@ -11,10 +11,10 @@ let filmeEscolhido;
 let horarioEscolhido;
 
 const filme = {
-    nome: ['Planeta dos Macacos', 'Jhon Wick', 'Adão Negro', 'Convenção das Bruxas', 'O Duble', 'Deadpool 3'],
-    horarios: ['9:00', '12:00', '15:00','18:00', '21:00'],
-    valorInteira: 30,
-    valorMeia: 15
+    nome: ['Bad Boys 4', 'Planeta dos Macacos', 'Amigos Imaginários', 'Wacthers', 'Furiosa - MADMAX', 'Garfield'],
+    horarios: ['14:00', '16:00', '19:00','20:30', '21:30'],
+    valorInteira: 12,
+    valorMeia: 6
 }
 
 function exibeFilme(escolhaFilme){
